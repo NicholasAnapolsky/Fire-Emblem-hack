@@ -1,0 +1,3 @@
+#Return to Title Screen
+MNTS, 0x2A20, 4, -game:FE8 -indexMode:8
+    Value1, 2, 2

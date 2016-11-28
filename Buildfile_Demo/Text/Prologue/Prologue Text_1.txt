@@ -1,0 +1,12 @@
+[OpenMidLeft][LoadFace][0x02][0x01][OpenRight][LoadFace][0x14][0x01][OpenFarRight][LoadFace][0x04][0x01][OpenMidLeft]Hey,[.] check out my cool hack![A][NL]
+[OpenRight]Wow,[.] that [ToggleRed]is[ToggleRed] pretty cool![A][NL]
+[OpenFarRight]Are we supposed to just talk[NL]
+about how cool this is?[A][NL]
+
+Because it's not really[NL]
+all that cool.[A][NL]
+[OpenMidLeft]W-well,[.] [ToggleRed]I[ToggleRed] think it's cool,[NL]
+so there.[A][NL]
+[OpenRight]By the way,[.] we seem[NL]
+to have company.[A][NL]
+[OpenFarRight]Wait,[.] that's it?[A][X]

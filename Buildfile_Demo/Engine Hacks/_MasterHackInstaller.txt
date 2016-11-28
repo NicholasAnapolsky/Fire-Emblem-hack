@@ -1,0 +1,53 @@
+/////////////////////////////////////////////////////////
+//                                                     //
+//               Master Hack Installer                 //
+//                                                     //
+/////////////////////////////////////////////////////////
+
+#include "Extensions/Hack Installation.txt"
+
+////////////////////////////////SUPPORTING CHANGES
+PUSH
+  //Include essential fixes
+  #include "_FE8EssentialFixes.txt"
+
+  //Autopatches
+  #include "_FEditorAutopatches.txt"
+POP
+
+
+////////////////////////////////FREE SPACE WITHIN BL RANGE
+PUSH
+ORG FreeSpaceBLRange //defined in custom definitions
+#define InBLRange
+
+  //Talk and Support don't end your turn
+  #include "ContemporaryTalkSupport.txt"
+
+#undef InBLRange
+POP
+
+////////////////////////////////FREE SPACE OUT OF BL RANGE
+//start of Free space
+
+  //HP Bars (and effective weapon warning)
+  #include "HPbars.txt"
+
+  //Improved Sound Mixer
+  #include "SoundMixer.txt"
+
+  //Danger Zone (select button)
+  #include "DangerZone.txt"
+
+  //Event Writer ASMC
+  #include "EventWriter.txt"
+
+  //Battle calculations
+  #include "FE8_calc_loop.event"
+
+  //Casual Mode (based on Event ID 0xB0)
+  #include "CasualMode.event"
+
+  //Movement Arrow doesn't update on allies
+  #include "MovementArrowFix.event"
+ALIGN 4

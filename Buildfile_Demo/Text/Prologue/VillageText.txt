@@ -1,0 +1,4 @@
+[OpenMidLeft][LoadFace][0x69][0x01][OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft]Our village is but a poor[NL]
+and humble demonstration[A][NL]
+of tile changes.[.] We also[NL]
+exist to give you cash.[A][X]

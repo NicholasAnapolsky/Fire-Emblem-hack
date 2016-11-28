@@ -1,0 +1,6 @@
+[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x14][0x01][OpenMidLeft]Hey,[.] guess what?[A][NL]
+[OpenMidRight]What?[A][NL]
+[OpenMidLeft]Talking doesn't end[NL]
+your turn any more![A][NL]
+[OpenMidRight]Oh,[.] that's pretty neat![A][NL]
+[OpenMidLeft]Yep![A][X]

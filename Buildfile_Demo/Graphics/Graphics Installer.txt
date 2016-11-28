@@ -1,0 +1,32 @@
+//assumed to be at free space
+#define ChapterGraphic(id,graphic) "PUSH; ORG $a01208+(12*id);POIN graphic 0 0;POP"
+//Weapon Icon Install
+//PUSH
+//  ORG 0x36b4
+//  POIN WeaponIcons
+//  ORG 0x3788
+//  POIN WeaponIcons
+//POP
+//WeaponIcons:
+//#incext Png2Dmp "Weapon Icons/weaponicons_expanded.png"
+
+//Map Sprites Install
+#include "map_sprites/MapSprites.txt"
+
+//Portraits Install
+#include "portraits/PortraitInstaller.txt"
+
+//Animations Install
+#include "Animations/Master Animation Installer.txt"
+
+//Title Screen scroll
+PUSH
+  ORG $aacedc
+  #incext Png2Dmp "SS-title_edited.png" --lz77
+POP
+
+//Chapter Name
+ALIGN 4
+PrologueName:
+#incext Png2Dmp "ChapterName.png" --lz77
+ChapterGraphic(0,PrologueName)

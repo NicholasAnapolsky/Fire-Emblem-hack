@@ -1,0 +1,19 @@
+#include "Tools/Tool Helpers.txt"
+
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+
+Loydie_Mug:
+#incext PortraitFormatter "loydie.png"
+setMugEntry(0x2, Loydie_Mug, 2, 5, 3, 3)
+
+Silvester_Mug:
+#incext PortraitFormatter "silvester.png"
+setMugEntry(0x4, Silvester_Mug, 2, 5, 3, 3)
+
+Fauna_Mug:
+#incext PortraitFormatter "fauna.png"
+setMugEntry(0x14, Fauna_Mug, 2, 6, 2, 5)
+
+Wizard_Mug:
+#incext PortraitFormatter "Caster2.png"
+setMugEntry(0x30, Wizard_Mug, 3,5,3,3)

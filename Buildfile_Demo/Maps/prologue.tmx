@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="2E003430" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="Tilesets/2E003430.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="15" height="10">
+  <properties>
+   <property name="Main" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJx1UjsOgCAMpTFhRO+iJ3D2Xrq4uDOjJ8GbqLewRBpKU4eXfuh7/YTQGHP/YETsDAfCMUSEB2Ms2g0+2JyLuSb5VKtxWyjcDgrXCy3S4bHGXbL+CnUfD/VcPeMOUOtPYg6vaKXZOM+xfSVXxhPLh3zX5M/K7TQtqrvQPk2JaX+trxV5Oe8s3kn/728knIom2Rda+FBa
+  </data>
+ </layer>
+</map>

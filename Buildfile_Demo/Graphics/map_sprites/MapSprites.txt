@@ -1,0 +1,9 @@
+
+Map_Eliwood_Stand:
+#incext Png2Dmp "Eliwood_Standing_16x32.png" --lz77
+Map_Eliwood_Move:
+#incext Png2Dmp "Eliwood_Moving_32x32.png" --lz77
+Map_Thief_F_Stand:
+#incext Png2Dmp "Thief F_Standing_16x32.png" --lz77
+Map_Thief_F_Move:
+#incext Png2Dmp "Thief F_Moving_32x32.png" --lz77

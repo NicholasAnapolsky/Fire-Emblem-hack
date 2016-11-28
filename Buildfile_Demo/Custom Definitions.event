@@ -1,0 +1,6 @@
+#define FreeSpace 0xb2a610
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define Ruby Eirika
+#define Florina Ephraim
+#define Circe Seth

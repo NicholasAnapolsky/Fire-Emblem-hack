@@ -1,0 +1,17 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+#include "animationpatches.event"
+
+//////////////Installed animations go here:
+
+  #include "elislash/slash Installer.event"
+  #include "female thief/CassSword Installer.event"
+  #include "female thief/CassUnarmed Installer.event"

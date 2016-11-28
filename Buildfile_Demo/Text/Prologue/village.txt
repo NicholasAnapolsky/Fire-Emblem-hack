@@ -1,0 +1,22 @@
+Person = 0xFEFF
+Villager = 0x69
+Houser = 0x4a
+
+##VillageText
+Villager, left
+Person, right
+
+Villager: Our village is but a poor
+and humble demonstration[A]
+of tile changes. We also
+exist to give you cash.[A]
+
+##HouseText
+Houser, left
+Person, right
+
+Houser: Me? I'm not an evil
+wizard.[A]
+That guy outside, though,
+he totally is.[A]
+Go kick his butt![A]

@@ -1,0 +1,15 @@
+//battle calculations loop fe8
+#include "BattleCalcDefinitions.event"
+#include "Extensions/Hack Installation.txt"
+PUSH
+ORG 0x2a95c
+jumpToHack(LoopParent)
+POP
+
+//under free space
+ALIGN 4
+LoopParent:
+#incbin "FE8_calc_loop.dmp"
+LoopTable:
+POIN BC_DefRes BC_Power BC_ASpd BC_Hit BC_Avo BC_Crit BC_Dodge BC_Support BC_WRank BC_Status //these are the existing battle calculation routines
+POIN 0//add any new ones before the 0
