@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" name="2E003430" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="Tilesets/2E003430.png" width="512" height="512"/>
  </tileset>
- <layer name="Main" width="15" height="10">
+ <layer name="Main" width="16" height="10">
   <properties>
    <property name="Main" value=""/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJx1UjsOgCAMpTFhRO+iJ3D2Xrq4uDOjJ8GbqLewRBpKU4eXfuh7/YTQGHP/YETsDAfCMUSEB2Ms2g0+2JyLuSb5VKtxWyjcDgrXCy3S4bHGXbL+CnUfD/VcPeMOUOtPYg6vaKXZOM+xfSVXxhPLh3zX5M/K7TQtqrvQPk2JaX+trxV5Oe8s3kn/728knIom2Rda+FBa
+   eJyFkjEOwjAMRR1VMAYEnAMk4ASoI7fgKFUUFhZ25sLGLdqbFG7Bj/qtmqiC4cl1o2c7butC5PWDA7gbHmADnqQBJxGZMJYZ6dyDIH3UPLlr46u7dCILsHKDH1g/mNyb3PozeFO8m9M/s9/FDf2Tp+g8pfGvYE9f+xzdd397Hzu3unruzf1zX/N87sD71Nx3hefI2IzUS/4O3pa9I3fSIb6Lwa24j7H5LbpPnV3dmM1+c32P7s8/1Joa9tslPhkcSgg=
   </data>
  </layer>
 </map>

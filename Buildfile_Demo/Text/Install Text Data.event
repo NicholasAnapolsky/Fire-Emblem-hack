@@ -36,6 +36,14 @@ CasualAsk_Data:
 #incext ParseFile "Prologue\CasualAsk.txt"
 setText(CasualAsk,CasualAsk_Data)
 
+FaunaRecruit1_Data:
+#incext ParseFile "Prologue\FaunaRecruit1.txt"
+setText(FaunaRecruit1,FaunaRecruit1_Data)
+
+FaunaRecruit2_Data:
+#incext ParseFile "Prologue\FaunaRecruit2.txt"
+setText(FaunaRecruit2,FaunaRecruit2_Data)
+
 HouseText_Data:
 #incext ParseFile "Prologue\HouseText.txt"
 setText(HouseText,HouseText_Data)
@@ -52,21 +60,17 @@ Prologue_WM_Text_Data:
 #incext ParseFile "Prologue\Prologue_WM_Text.txt"
 setText(Prologue_WM_Text,Prologue_WM_Text_Data)
 
-TalkEvent_Data:
-#incext ParseFile "Prologue\TalkEvent.txt"
-setText(TalkEvent,TalkEvent_Data)
-
 VillageText_Data:
 #incext ParseFile "Prologue\VillageText.txt"
 setText(VillageText,VillageText_Data)
 
-BossDesc_Data:
-#incext ParseFile "Unit Text\BossDesc.txt"
-setText(BossDesc,BossDesc_Data)
+DirkDesc_Data:
+#incext ParseFile "Unit Text\DirkDesc.txt"
+setText(DirkDesc,DirkDesc_Data)
 
-BossName_Data:
-#incext ParseFile "Unit Text\BossName.txt"
-setText(BossName,BossName_Data)
+DirkName_Data:
+#incext ParseFile "Unit Text\DirkName.txt"
+setText(DirkName,DirkName_Data)
 
 FaunaDesc_Data:
 #incext ParseFile "Unit Text\FaunaDesc.txt"

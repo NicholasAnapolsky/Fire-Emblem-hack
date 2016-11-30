@@ -13,7 +13,3 @@ setMugEntry(0x4, Silvester_Mug, 2, 5, 3, 3)
 Fauna_Mug:
 #incext PortraitFormatter "fauna.png"
 setMugEntry(0x14, Fauna_Mug, 2, 6, 2, 5)
-
-Wizard_Mug:
-#incext PortraitFormatter "Caster2.png"
-setMugEntry(0x30, Wizard_Mug, 3,5,3,3)

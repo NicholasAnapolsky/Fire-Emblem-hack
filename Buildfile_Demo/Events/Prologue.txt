@@ -13,15 +13,28 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 Units:
+//Loydie using Erika as a unit, starts at position [2,3]
 UNIT 0x1 EirikaLord Eirika Level(1, Ally, False) [2,3] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary] NoAI 
-UNIT 0xf Thief Eirika Level(1, Ally, False) [3,5] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI 
+
+//Fauna using Ephiram as a NPC to start, she runs for escape, starts at position [3,5]
+UNIT 0xf Thief Eirika Level(1, NPC, False) [7,5] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] [0x00, 0x00, 0xFF, 0x00]
+
+//Silvester using Seth as a unit, starts at position [1,1]
 UNIT 0x2 Paladin Eirika Level(1, Ally, False) [1,1] 0x00 0x00 0x0 0x00 [SteelLance] NoAI 
-UNIT ONeill Fighter 0x00 Level(10, Enemy, True) [13,1] 0x00 0x00 0x0 0x00 [SteelAxe] GuardTileAI 
+
+//The boss Dirk using ONeill as a unit, starts at position [13,1]
+UNIT ONeill Fighter 0x00 Level(10, Enemy, True) [14,1] 0x00 0x00 0x0 0x00 [SteelAxe] GuardTileAI 
+
+//Enemy units using ONeill as a captain, using regular AI
 UNIT 0x80 Fighter ONeill Level(2, Enemy, True) [4,7] 0x00 0x00 0x0 0x00 [IronAxe] DefaultAI 
 UNIT 0x80 Fighter ONeill Level(2, Enemy, True) [9,4] 0x00 0x00 0x0 0x00 [IronAxe] DefaultAI 
-UNIT 0x80 Fighter ONeill Level(2, Enemy, True) [13,6] 0x00 0x00 0x0 0x00 [IronAxe] [0x00, 0x06, 0x00, 0x00]
-UNIT 0x80 Archer ONeill Level(1, Enemy, True) [12,2] 0x00 0x00 0x0 0x00 [IronBow] [0x00, 0x0C, 0x00, 0x00]
 UNIT 0x80 Soldier ONeill Level(2, Enemy, True) [8,8] 0x00 0x00 0x0 0x00 [IronLance] GuardTileAI
+
+//Enemy unit using ONeill as a captain, using AI that makes it move when an ally gets close in
+UNIT 0x80 Fighter ONeill Level(2, Enemy, True) [13,6] 0x00 0x00 0x0 0x00 [IronAxe] [0x00, 0x06, 0x00, 0x00]
+
+//Enemy unit using ONeill as a captain, using AI that makes it move when an ally is in range
+UNIT 0x80 Archer ONeill Level(1, Enemy, True) [13,2] 0x00 0x00 0x0 0x00 [IronBow] [0x00, 0x0C, 0x00, 0x00]
 UNIT
 
 
@@ -34,7 +47,6 @@ CharacterEventBothWays(0x7,EirikaEphraimTalk,Eirika,Ephraim)
 END_MAIN
 
 LocationBasedEvents:
-Seize(19,15)
 //Seize(19,15)
 END_MAIN
 
@@ -82,8 +94,15 @@ ENDA
 
 // Events
 EirikaEphraimTalk:
-Text(TalkEvent)
-NoFade
+MUSC 0x002C
+TEXTSTART
+	TEXTSHOW 0x90f
+TEXTEND
+MUSC 0x0030
+TEXTSTART
+	TEXTSHOW 0x911
+TEXTEND
+CUSA 0xf //change unit side to ally
 ENDA
 
 VisitVillage:

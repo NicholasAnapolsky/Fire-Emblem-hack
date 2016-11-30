@@ -4,28 +4,13 @@
 #endif
 
 
-#define CirceEnding	0x7d8
-#define CirceTitle	0x7d7
-#define FlorinaEnding	0x7f2
-#define FlorinaTitle	0x7f1
 #define PrologueChName	0x160
-#define RubyEnding	0x7d6
-#define RubyTitle	0x7d5
 #define CasualAsk	0x90a
 #define HouseText	0x90b
 #define Prologue_Text_1	0x90c
 #define Prologue_Text_2	0x90d
 #define Prologue_WM_Text	0x90e
-#define TalkEvent	0x90f
 #define VillageText	0x910
-#define BossDesc	0x2a3
-#define BossName	0x249
-#define CirceDesc	0x26f
-#define CirceName	0x213
-#define FlorinaDesc	0x27c
-#define FlorinaName	0x220
-#define RubyDesc	0x26e
-#define RubyName	0x212
 #define LoydieDesc	0x26e
 #define LoydieName	0x212
 #define FaunaDesc	0x27c
@@ -38,3 +23,7 @@
 #define LoydieTitle	0x7d5
 #define SilvesterEnding	0x7d8
 #define SilvesterTitle	0x7d7
+#define DirkDesc	0x2a3
+#define DirkName	0x249
+#define FaunaRecruit1	0x90f
+#define FaunaRecruit2	0x911
