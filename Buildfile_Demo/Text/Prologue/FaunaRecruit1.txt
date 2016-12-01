@@ -2,7 +2,7 @@
 [OpenMidLeft][LoadFace][0x02][0x01]Wait up![A][NL]
 [OpenMidRight][LoadFace][0x14][0x01]
 [OpenMidRight]What?[A][NL]
-[OpenMidLeft]I reconize you from somewhere...[A][NL]
+[OpenMidLeft]I recognise you from somewhere...[A][NL]
 [OpenMidRight]Oh?[NL]
 I think you are mistaken, then.[A][NL][ClearFace]
 [OpenMidLeft]Hey wait![A][NL]

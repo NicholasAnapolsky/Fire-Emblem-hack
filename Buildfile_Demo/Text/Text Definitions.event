@@ -7,7 +7,6 @@
 #define PrologueChName	0x160
 #define CasualAsk	0x90a
 #define HouseText	0x90b
-#define Prologue_Text_1	0x90c
 #define Prologue_Text_2	0x90d
 #define Prologue_WM_Text	0x90e
 #define VillageText	0x910
@@ -27,3 +26,5 @@
 #define DirkName	0x249
 #define FaunaRecruit1	0x90f
 #define FaunaRecruit2	0x911
+#define PreChapter_Loydie_and_Silv	0x90c
+#define PreChapter_Fauna	0x912
