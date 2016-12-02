@@ -27,6 +27,7 @@ POIN BeginningScene EndingScene
 //Music
 #define SadMusic 0x002C
 #define RecruitMusic 0x0030
+#define SillyMusic 0x002A
 
 Units:
 //Loydie using Erika as a unit, starts at position [2,3]
@@ -88,7 +89,7 @@ BeginningScene:
 LOAD1 0x1 Units
 ENUN
 CAM1 Loydie
-MUSC 0x1
+MUSC SillyMusic
 Text(Forest, LoydieSilvesterOpen)
 CAM1 0xf //camera move to unit
 Text(Village, FaunaOpen)
