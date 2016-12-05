@@ -4,7 +4,32 @@
 
 PUSH
 EventPointerTable(0x4, Map)
+EventPointerTable(0x6, MapChanges)
 POP
 
 Map:
 #incbin "prologue_data.dmp"
+
+MapChanges:
+TileMap(0,11,8,1,1,Village1_Destroyed)
+TileMap(1,10,6,1,1,Village2_Destroyed)
+TileMap(2,9,7,1,1,Village3_Destroyed)
+TileMap(3,5,7,1,1,Village4_Destroyed)
+TileMapEnd
+
+Village1_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+
+Village2_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+
+Village3_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+
+Village4_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+

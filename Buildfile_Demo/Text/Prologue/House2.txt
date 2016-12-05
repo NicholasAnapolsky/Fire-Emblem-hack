@@ -1,0 +1,13 @@
+# 0xbfd
+[OpenMidLeft][LoadFace][0x61][0x01][OpenMidRight][LoadFace][0xFF][0xFF]
+[OpenMidLeft]
+Eeeeek!![A][2NL]
+D-[MoveMidLeft] don't hurt me please![A][2NL]
+H- huh?[.] I recognise you from town.[A][2NL]
+That's a relief,[.] anyway you better[NL]
+get out of town as soon as possible![A][2NL]
+Ehhh?! You are going to fight![A][2NL]
+I hope you now what you are[NL]
+getting into.[A][2NL]
+Good luck to you![A]
+[X]

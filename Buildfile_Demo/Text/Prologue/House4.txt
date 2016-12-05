@@ -1,0 +1,12 @@
+# 0xbff
+[OpenMidLeft][LoadFace][0x60][0x01]
+[OpenFarLeft][LoadFace][0x5E][0x01]
+[OpenMidRight][LoadFace][0xFF][0xFF]
+[OpenMidLeft]
+D- don't move![.] Please I have a child![A][2NL]
+He is a good boy![.] Just let him live![A][2NL]
+Calm down you say![.] please just-[NL]
+You aren't with them?[A][2NL]
+Oh gods please let this be so?[A][2NL]
+Please don't come to harm![A]
+[X]

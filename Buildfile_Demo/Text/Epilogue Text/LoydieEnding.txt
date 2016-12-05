@@ -1,6 +1,0 @@
-# 0x7D6
-Ruby returned to Remnant and began the[.][N]
-long process of remaking FE: Dust to Dust[.][N]
-in the new and efficient buildfile system.[.][N]
-Her animation remained the greatest thing[N]
-about the hack.[X]

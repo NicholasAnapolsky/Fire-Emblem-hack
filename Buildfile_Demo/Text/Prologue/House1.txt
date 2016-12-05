@@ -1,0 +1,11 @@
+# 0xbfc
+[OpenMidLeft][LoadFace][0x5B][0x01][OpenMidRight][LoadFace][0xFF][0xFF]
+[OpenMidLeft]
+Hello there,[.] nice to have some[NL]
+company here.[A][2NL]
+Huh?[.] Look look worried for some reason?[A][2NL]
+What!![MoveMidLeft][A][2NL]
+We are under attack![A][2NL]
+Well hurry up and run yourself![A][2NL]
+I got to get some things and gun it![A]
+[X]
