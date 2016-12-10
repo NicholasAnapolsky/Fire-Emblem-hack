@@ -48,13 +48,9 @@ BossTextSilv_Data:
 #incext ParseFile "Prologue\BossTextSilv.txt"
 setText(BossTextSilv,BossTextSilv_Data)
 
-FaunaRecruit1_Data:
-#incext ParseFile "Prologue\FaunaRecruit1.txt"
-setText(FaunaRecruit1,FaunaRecruit1_Data)
-
-FaunaRecruit2_Data:
-#incext ParseFile "Prologue\FaunaRecruit2.txt"
-setText(FaunaRecruit2,FaunaRecruit2_Data)
+FaunaRecruit_Data:
+#incext ParseFile "Prologue\FaunaRecruit.txt"
+setText(FaunaRecruit,FaunaRecruit_Data)
 
 House1_Data:
 #incext ParseFile "Prologue\House1.txt"
@@ -76,6 +72,22 @@ House4_Data:
 #incext ParseFile "Prologue\House4.txt"
 setText(House4,House4_Data)
 
+PostChapter1_Data:
+#incext ParseFile "Prologue\PostChapter1.txt"
+setText(PostChapter1,PostChapter1_Data)
+
+PostChapterMarx1_Data:
+#incext ParseFile "Prologue\PostChapterMarx1.txt"
+setText(PostChapterMarx1,PostChapterMarx1_Data)
+
+PostChapterMarx2_Data:
+#incext ParseFile "Prologue\PostChapterMarx2.txt"
+setText(PostChapterMarx2,PostChapterMarx2_Data)
+
+PostChapterMarx3_Data:
+#incext ParseFile "Prologue\PostChapterMarx3.txt"
+setText(PostChapterMarx3,PostChapterMarx3_Data)
+
 PreChapter_Fauna_Data:
 #incext ParseFile "Prologue\PreChapter Fauna.txt"
 setText(PreChapter_Fauna,PreChapter_Fauna_Data)
@@ -87,10 +99,6 @@ setText(PreChapter_Loydie_and_Silv,PreChapter_Loydie_and_Silv_Data)
 PreChapterDirk_Data:
 #incext ParseFile "Prologue\PreChapterDirk.txt"
 setText(PreChapterDirk,PreChapterDirk_Data)
-
-Prologue_Text_2_Data:
-#incext ParseFile "Prologue\Prologue Text_2.txt"
-setText(Prologue_Text_2,Prologue_Text_2_Data)
 
 Prologue_WM_Text_Data:
 #incext ParseFile "Prologue\Prologue_WM_Text.txt"

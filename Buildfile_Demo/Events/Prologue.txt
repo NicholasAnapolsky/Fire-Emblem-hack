@@ -14,12 +14,13 @@ POIN BeginningScene EndingScene
 
 //Variable Definitions
 //Characters
-#define Loydie 0x1
-#define Fauna 0xf
+#define Lloyd 0x1
+#define Fauna 0x3
 #define Silvester 0x2
 #define Dirk ONeill
+#define Marx 0x6C
 
-//Conversations
+//Map Effects
 
 //EnemyUnits
 #define grunt1 0x80
@@ -33,7 +34,12 @@ POIN BeginningScene EndingScene
 #define RecruitMusic 0x0030
 #define SillyMusic 0x002A
 #define EnemyAproach 0x0026
+#define PlayerMap 0x0009
+#define PostChapter 0x0025
+#define ThemeOfMarx 0x0016
 #define VillageDestroyed 0x00AB
+#define MapDeath 0x00D5
+#define Rumble 0x02F0
 
 //Event Ids
 #define BossQuote 0x01
@@ -41,14 +47,16 @@ POIN BeginningScene EndingScene
 Units:
 //Fauna using Ephiram as a NPC to start, she runs for escape, starts at position [3,5]
 UNIT Fauna Thief Eirika Level(1, NPC, False) [3,3] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] [0x00, 0x00, 0xFF, 0x00]
+UNIT
 
+Boss:
 //The boss Dirk using ONeill as a unit, starts at position [13,1]
 UNIT Dirk Fighter 0x00 Level(10, Enemy, True) [14,3] 0x00 0x00 0x0 0x00 [SteelAxe] GuardTileAI 
 UNIT
 
 Units2:
-//Loydie using Erika as a unit, starts at position [2,3]
-UNIT Loydie EirikaLord Eirika Level(1, Ally, False) [3,4] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary] NoAI 
+//Lloyd using Erika as a unit, starts at position [2,3]
+UNIT Lloyd EirikaLord Eirika Level(1, Ally, False) [3,4] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary] NoAI 
 
 //Silvester using Seth as a unit, starts at position [1,1]
 UNIT Silvester Paladin Eirika Level(1, Ally, False) [4,4] 0x00 0x00 0x0 0x00 [SteelLance] NoAI 
@@ -67,17 +75,20 @@ UNIT grunt4 Fighter Dirk Level(2, Enemy, True) [14,1] 0x00 0x00 0x0 0x00 [IronAx
 UNIT grunt5 Archer Dirk Level(1, Enemy, True) [15,2] 0x00 0x00 0x0 0x00 [IronBow] [0x00, 0x03, 0x09, 0x00]
 UNIT
 
+MarxUnits:
+UNIT Marx Necromancer 0x0 Level(20, Enemy, False) [14,8] 0x00 0x00 0x0 0x00 [IronSword] GuardTileAI 
+UNIT
 
 TurnBasedEvents:
 OpeningTurnEvent(CasualModePrompt)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x7,EirikaEphraimTalk,Eirika,Ephraim)
+CharacterEventBothWays(0x7,EirikaEphraimTalk,Lloyd,Fauna)
 END_MAIN
 
 LocationBasedEvents:
-//CHECK_ACTIVEID Loydie
+//CHECK_ACTIVEID Lloyd
 House(0x10, HouseNorthWest, 4, 1)
 House(0x11, HouseNorthCentral, 5, 3)
 House(0x12, HouseSouthCentral, 3, 6)
@@ -87,7 +98,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
+DefeatAll(EndingScene)
 END_MAIN
 
 Dunno:
@@ -106,6 +117,7 @@ ALIGN 4
 BeginningScene:
 MUSC SillyMusic
 LOAD1 0x1 Units
+LOAD1 0x1 Boss
 Text(Forest, PreChapter_Loydie_and_Silv)
 CAM1 Fauna //camera move to unit
 CUMO Fauna
@@ -113,7 +125,7 @@ STAL 50
 CURE
 Text(Village, PreChapter_Fauna)
 LOAD1 0x1 Units2
-MOVE 0x01 Loydie [2,2]
+MOVE 0x01 Lloyd [2,2]
 MOVE 0x01 Silvester [1,1]
 STAL 100
 
@@ -129,9 +141,9 @@ MOVE 0x00 grunt2 [14,4]
 MOVE 0x00 grunt3 [15,7]
 MOVE 0x00 grunt4 [15,5]
 MOVE 0x00 grunt5 [13,9]
-STAL 50
+ENUN
 MOVE 0x00 grunt5 [11,8]
-STAL 50
+ENUN
 
 Text(HouseBG, House1Destroy)
 TILECHANGE 0
@@ -139,19 +151,19 @@ SOUN VillageDestroyed
 STAL 50
 
 MOVE 0x00 grunt4 [10,6]
-STAL 40
+ENUN
 TILECHANGE 1
 SOUN VillageDestroyed
 STAL 50
 
 MOVE 0x00 grunt3 [9,7]
-STAL 40
+ENUN
 TILECHANGE 2
 SOUN VillageDestroyed
 STAL 50
 
 MOVE 0x00 grunt1 [5,7]
-STAL 40
+ENUN
 TILECHANGE 3
 SOUN VillageDestroyed
 STAL 50
@@ -161,6 +173,7 @@ MOVE 0x00 grunt2 [11,5]
 MOVE 0x00 grunt4 [13,6]
 MOVE 0x00 grunt5 [13,2]
 MOVE 0x00 Dirk [14,0]
+ENUN
 Text(Village, AllyRealisation)
 MOVE 0x00 Fauna [6,5]
 STAL 50
@@ -168,31 +181,82 @@ REMA //go from text to map
 EVBIT_T 0x7 //don't fade to black
 ENDA
 
-// Events
-EirikaEphraimTalk:
-MUSC SadMusic
-TEXTSTART
-	TEXTSHOW FaunaRecruit1
-TEXTEND
-MUSC RecruitMusic
-TEXTSTART
-	TEXTSHOW FaunaRecruit2
-TEXTEND
-CUSA 0xf //change unit side to ally
-ENDA
-
 EndingScene:
 ENUT 0x71
 ENUT 0x72
-MUSC 0x33
-SetBackground(Riverside)
-TEXTSTART //not using macro because i don't want it to return to map
-TEXTSHOW Prologue_Text_2
+MUSC PostChapter
+CLEA 0x0
+DISA Lloyd
+DISA Silvester
+DISA Fauna
+DISA grunt1
+DISA grunt2
+DISA grunt3
+DISA grunt4
+DISA grunt5
+Text(Plain, PostChapter1)
+LOAD1 0x01 MarxUnits
+LOAD1 0x1 Boss
+CAM1 Marx
+CUMO Marx
+STAL 50
+CURE
+MUSC ThemeOfMarx
+Text(Plain, PostChapterMarx1)
+CAM1 Dirk
+CUMO Dirk
+STAL 50
+CURE
+MOVE 0x00 Dirk [14,7]
+ENUN
+Text(Plain, PostChapterMarx2)
+MUSC Rumble
+EARTHQUAKE_START 0x0
+TILECHANGE 4
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 5
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 6
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 7
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 8
+SOUN VillageDestroyed
+STAL 20
+MOVE 0x00 Dirk [14,3]
+ENUN
+TILECHANGE 9
+TILECHANGE 10
+DISA Dirk
+SOUN MapDeath
+MUSC Rumble
+STAL 50
+EARTHQUAKE_END
+MUSC 0x0000
+SetBackground(Plain)
+TEXTSTART
+	TEXTSHOW PostChapterMarx3
 TEXTEND
 FADI 10
 //MNTS 0x0
 //Write_Byte(3,$202bcf0+$1b)
-MNC4 0x0
+MNC2 0x01
+ENDA
+
+// Events
+EirikaEphraimTalk:
+TEXTSTART
+MUSC SadMusic
+TEXTSHOW FaunaRecruit
+TEXTEND
+MUSC RecruitMusic
+TEXTCONT
+TEXTEND
+CUSA Fauna //change unit side to ally
 ENDA
 
 VisitVillage:

@@ -1,9 +1,9 @@
-# 0xbfa
+# 0xc00
 [OpenFarRight][LoadFace][0x6A][0x01]
 [OpenMidLeft][LoadFace][0x5A][0x01]
 W-[.] why did you just knock[NL]
 down my door?[A][NL]
-[OpenFarRight][MoveLeft]
+[OpenFarRight][MoveRight]
 [OpenMidLeft]
 [CloseEyes]GUH![A][2NL]
 [HalfCloseEyes]W-[.] why?[A]

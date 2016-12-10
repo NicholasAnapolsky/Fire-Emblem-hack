@@ -27,6 +27,7 @@ POP
 
 //Chapter Name
 ALIGN 4
+
 PrologueName:
-#incext Png2Dmp "ChapterName.png" --lz77
+#incext Png2Dmp "PrologueName.png" --lz77
 ChapterGraphic(0,PrologueName)

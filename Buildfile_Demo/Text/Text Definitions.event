@@ -9,8 +9,8 @@
 #define Prologue_WM_Text	0x90e
 #define LloydDesc	0x26e
 #define LloydName	0x212
-#define FaunaDesc	0x27c
-#define FaunaName	0x220
+#define FaunaDesc	0x270
+#define FaunaName	0x214
 #define SilvesterDesc	0x26f
 #define SilvesterName	0x213
 #define FaunaEnding	0x7f2
@@ -23,10 +23,9 @@
 #define DirkName	0x249
 #define AllyRealisation	0xbfb
 #define BossTextGeneric	0x916
-#define FaunaRecruit1	0xbf5
-#define FaunaRecruit2	0xbf6
+#define FaunaRecruit	0xbf5
 #define House1	0xbfc
-#define House1Destroy	0xbfa
+#define House1Destroy	0xc00
 #define House2	0xbfd
 #define House3	0xbfe
 #define House4	0xbff
@@ -35,3 +34,7 @@
 #define PreChapterDirk	0xbf9
 #define BossTextLloyd	0x935
 #define BossTextSilv	0x90a
+#define PostChapter1	0xbfa
+#define PostChapterMarx1	0xbfc
+#define PostChapterMarx2	0xc01
+#define PostChapterMarx3	0xc02
