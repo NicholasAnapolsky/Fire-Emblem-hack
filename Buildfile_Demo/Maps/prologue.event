@@ -4,7 +4,67 @@
 
 PUSH
 EventPointerTable(0x4, Map)
+EventPointerTable(0x6, MapChanges)
 POP
 
 Map:
 #incbin "prologue_data.dmp"
+
+MapChanges:
+TileMap(0,11,8,1,1,Village1_Destroyed)
+TileMap(1,10,6,1,1,Village2_Destroyed)
+TileMap(2,9,7,1,1,Village3_Destroyed)
+TileMap(3,5,7,1,1,Village4_Destroyed)
+TileMap(4,3,6,1,1,Quake1)
+TileMap(4,10,2,1,1,Quake2)
+TileMap(5,4,1,1,1,Quake4)
+TileMap(6,5,3,1,1,Quake5)
+TileMap(7,2,1,1,1,Quake6)
+TileMap(8,13,2,3,1,TrapDirk)
+TileMap(9,14,3,1,1,KillDirk)
+TileMapEnd
+
+Village1_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+
+Village2_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+
+Village3_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+
+Village4_Destroyed:
+SHORT 0xe18 
+ALIGN 4
+
+Quake1:
+SHORT 0xe18 
+ALIGN 4
+
+Quake2:
+SHORT 0xe18 
+ALIGN 4
+
+Quake4:
+SHORT 0xe18 
+ALIGN 4
+
+Quake5:
+SHORT 0xe18 
+ALIGN 4
+
+Quake6:
+SHORT 0xe18 
+ALIGN 4
+
+TrapDirk:
+SHORT 0xb88 0xb88 0xb88 
+ALIGN 4
+
+KillDirk:
+SHORT 0xa9c 
+ALIGN 4
+

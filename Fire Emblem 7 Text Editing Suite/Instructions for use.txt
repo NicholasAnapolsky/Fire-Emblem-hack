@@ -1,0 +1,7 @@
+1: Make changes to the alltext.txt as you wish.
+
+2: In the current folder (The one where you found this file), add a copy of the FE7 (U) rom renamed as "fe7e.gba"
+
+3: Open the command prompt provided (Or, if it does not function, put a copy of it (found on all Windows computers)), and type in the following phrase, EXACTLY as it is written (Without the quotations): "make alltext.txt"
+
+4: The fe7e.ips file that is generated is the patch that contains the text changes. The other generated files are junk and may be deleted.

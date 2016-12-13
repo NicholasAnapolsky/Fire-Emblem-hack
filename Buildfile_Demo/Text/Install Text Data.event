@@ -12,13 +12,13 @@ FaunaTitle_Data:
 #incext ParseFile "Epilogue Text\FaunaTitle.txt"
 setText(FaunaTitle,FaunaTitle_Data)
 
-LoydieEnding_Data:
-#incext ParseFile "Epilogue Text\LoydieEnding.txt"
-setText(LoydieEnding,LoydieEnding_Data)
+LloydEnding_Data:
+#incext ParseFile "Epilogue Text\LloydEnding.txt"
+setText(LloydEnding,LloydEnding_Data)
 
-LoydieTitle_Data:
-#incext ParseFile "Epilogue Text\LoydieTitle.txt"
-setText(LoydieTitle,LoydieTitle_Data)
+LloydTitle_Data:
+#incext ParseFile "Epilogue Text\LloydTitle.txt"
+setText(LloydTitle,LloydTitle_Data)
 
 PrologueChName_Data:
 #incext ParseFile "Epilogue Text\PrologueChName.txt"
@@ -32,41 +32,85 @@ SilvesterTitle_Data:
 #incext ParseFile "Epilogue Text\SilvesterTitle.txt"
 setText(SilvesterTitle,SilvesterTitle_Data)
 
-CasualAsk_Data:
-#incext ParseFile "Prologue\CasualAsk.txt"
-setText(CasualAsk,CasualAsk_Data)
+AllyRealisation_Data:
+#incext ParseFile "Prologue\AllyRealisation.txt"
+setText(AllyRealisation,AllyRealisation_Data)
 
-HouseText_Data:
-#incext ParseFile "Prologue\HouseText.txt"
-setText(HouseText,HouseText_Data)
+BossTextGeneric_Data:
+#incext ParseFile "Prologue\BossTextGeneric.txt"
+setText(BossTextGeneric,BossTextGeneric_Data)
 
-Prologue_Text_1_Data:
-#incext ParseFile "Prologue\Prologue Text_1.txt"
-setText(Prologue_Text_1,Prologue_Text_1_Data)
+BossTextLloyd_Data:
+#incext ParseFile "Prologue\BossTextLloyd.txt"
+setText(BossTextLloyd,BossTextLloyd_Data)
 
-Prologue_Text_2_Data:
-#incext ParseFile "Prologue\Prologue Text_2.txt"
-setText(Prologue_Text_2,Prologue_Text_2_Data)
+BossTextSilv_Data:
+#incext ParseFile "Prologue\BossTextSilv.txt"
+setText(BossTextSilv,BossTextSilv_Data)
+
+FaunaRecruit_Data:
+#incext ParseFile "Prologue\FaunaRecruit.txt"
+setText(FaunaRecruit,FaunaRecruit_Data)
+
+House1_Data:
+#incext ParseFile "Prologue\House1.txt"
+setText(House1,House1_Data)
+
+House1Destroy_Data:
+#incext ParseFile "Prologue\House1Destroy.txt"
+setText(House1Destroy,House1Destroy_Data)
+
+House2_Data:
+#incext ParseFile "Prologue\House2.txt"
+setText(House2,House2_Data)
+
+House3_Data:
+#incext ParseFile "Prologue\House3.txt"
+setText(House3,House3_Data)
+
+House4_Data:
+#incext ParseFile "Prologue\House4.txt"
+setText(House4,House4_Data)
+
+PostChapter1_Data:
+#incext ParseFile "Prologue\PostChapter1.txt"
+setText(PostChapter1,PostChapter1_Data)
+
+PostChapterMarx1_Data:
+#incext ParseFile "Prologue\PostChapterMarx1.txt"
+setText(PostChapterMarx1,PostChapterMarx1_Data)
+
+PostChapterMarx2_Data:
+#incext ParseFile "Prologue\PostChapterMarx2.txt"
+setText(PostChapterMarx2,PostChapterMarx2_Data)
+
+PostChapterMarx3_Data:
+#incext ParseFile "Prologue\PostChapterMarx3.txt"
+setText(PostChapterMarx3,PostChapterMarx3_Data)
+
+PreChapter_Fauna_Data:
+#incext ParseFile "Prologue\PreChapter Fauna.txt"
+setText(PreChapter_Fauna,PreChapter_Fauna_Data)
+
+PreChapter_Loydie_and_Silv_Data:
+#incext ParseFile "Prologue\PreChapter Loydie and Silv.txt"
+setText(PreChapter_Loydie_and_Silv,PreChapter_Loydie_and_Silv_Data)
+
+PreChapterDirk_Data:
+#incext ParseFile "Prologue\PreChapterDirk.txt"
+setText(PreChapterDirk,PreChapterDirk_Data)
 
 Prologue_WM_Text_Data:
 #incext ParseFile "Prologue\Prologue_WM_Text.txt"
 setText(Prologue_WM_Text,Prologue_WM_Text_Data)
 
-TalkEvent_Data:
-#incext ParseFile "Prologue\TalkEvent.txt"
-setText(TalkEvent,TalkEvent_Data)
+DirkDesc_Data:
+#incext ParseFile "Unit Text\DirkDesc.txt"
+setText(DirkDesc,DirkDesc_Data)
 
-VillageText_Data:
-#incext ParseFile "Prologue\VillageText.txt"
-setText(VillageText,VillageText_Data)
-
-BossDesc_Data:
-#incext ParseFile "Unit Text\BossDesc.txt"
-setText(BossDesc,BossDesc_Data)
-
-BossName_Data:
-#incext ParseFile "Unit Text\BossName.txt"
-setText(BossName,BossName_Data)
+DirkName_Data:
+#incext ParseFile "Unit Text\DirkName.txt"
+setText(DirkName,DirkName_Data)
 
 FaunaDesc_Data:
 #incext ParseFile "Unit Text\FaunaDesc.txt"
@@ -76,13 +120,13 @@ FaunaName_Data:
 #incext ParseFile "Unit Text\FaunaName.txt"
 setText(FaunaName,FaunaName_Data)
 
-LoydieDesc_Data:
-#incext ParseFile "Unit Text\LoydieDesc.txt"
-setText(LoydieDesc,LoydieDesc_Data)
+LloydDesc_Data:
+#incext ParseFile "Unit Text\LloydDesc.txt"
+setText(LloydDesc,LloydDesc_Data)
 
-LoydieName_Data:
-#incext ParseFile "Unit Text\LoydieName.txt"
-setText(LoydieName,LoydieName_Data)
+LloydName_Data:
+#incext ParseFile "Unit Text\LloydName.txt"
+setText(LloydName,LloydName_Data)
 
 SilvesterDesc_Data:
 #incext ParseFile "Unit Text\SilvesterDesc.txt"

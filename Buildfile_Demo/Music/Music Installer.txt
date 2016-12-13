@@ -14,11 +14,13 @@ POP
 voicegroup000:
 #incbin "FE8_NI_Map_custompiano.bin"
 
+/*
+SongTable(0x0044,theme_of_marx,1)
+#include "theme_of_marx.event"
+*/
+
 SongTable(0xc0,Myrt_Click,6)
 #include "Myrt_Click.event"
-
-SongTable(0xc1,Weiss_Glyph,6)
-#include "Weiss_Glyph.event"
 
 SongTable(0xc2,CR_Shot,6)
 #include "CR_Shot.event"

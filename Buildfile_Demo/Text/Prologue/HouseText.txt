@@ -1,5 +1,0 @@
-[LoadFace][0x4A][0x01][OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft]Me?[.] I'm not an evil[NL]
-wizard.[A][NL]
-That guy outside,[.] though,[NL]
-he totally is.[A][NL]
-Go kick his butt![A][X]
