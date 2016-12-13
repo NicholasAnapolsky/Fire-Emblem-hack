@@ -32,6 +32,10 @@ SilvesterTitle_Data:
 #incext ParseFile "Epilogue Text\SilvesterTitle.txt"
 setText(SilvesterTitle,SilvesterTitle_Data)
 
+NihilSoldierDesc_Data:
+#incext ParseFile "Grunt Text\NihilSoldierDesc.txt"
+setText(NihilSoldierDesc,NihilSoldierDesc_Data)
+
 AllyRealisation_Data:
 #incext ParseFile "Prologue\AllyRealisation.txt"
 setText(AllyRealisation,AllyRealisation_Data)
@@ -76,6 +80,10 @@ PostChapter1_Data:
 #incext ParseFile "Prologue\PostChapter1.txt"
 setText(PostChapter1,PostChapter1_Data)
 
+PostChapter2_Data:
+#incext ParseFile "Prologue\PostChapter2.txt"
+setText(PostChapter2,PostChapter2_Data)
+
 PostChapterMarx1_Data:
 #incext ParseFile "Prologue\PostChapterMarx1.txt"
 setText(PostChapterMarx1,PostChapterMarx1_Data)
@@ -112,6 +120,10 @@ DirkName_Data:
 #incext ParseFile "Unit Text\DirkName.txt"
 setText(DirkName,DirkName_Data)
 
+FaunaDeath_Data:
+#incext ParseFile "Unit Text\FaunaDeath.txt"
+setText(FaunaDeath,FaunaDeath_Data)
+
 FaunaDesc_Data:
 #incext ParseFile "Unit Text\FaunaDesc.txt"
 setText(FaunaDesc,FaunaDesc_Data)
@@ -120,6 +132,10 @@ FaunaName_Data:
 #incext ParseFile "Unit Text\FaunaName.txt"
 setText(FaunaName,FaunaName_Data)
 
+LloydDeath_Data:
+#incext ParseFile "Unit Text\LloydDeath.txt"
+setText(LloydDeath,LloydDeath_Data)
+
 LloydDesc_Data:
 #incext ParseFile "Unit Text\LloydDesc.txt"
 setText(LloydDesc,LloydDesc_Data)
@@ -127,6 +143,10 @@ setText(LloydDesc,LloydDesc_Data)
 LloydName_Data:
 #incext ParseFile "Unit Text\LloydName.txt"
 setText(LloydName,LloydName_Data)
+
+SilvesterDeath_Data:
+#incext ParseFile "Unit Text\SilvesterDeath.txt"
+setText(SilvesterDeath,SilvesterDeath_Data)
 
 SilvesterDesc_Data:
 #incext ParseFile "Unit Text\SilvesterDesc.txt"

@@ -11,8 +11,8 @@
 #define LloydName	0x212
 #define FaunaDesc	0x270
 #define FaunaName	0x214
-#define SilvesterDesc	0x26f
-#define SilvesterName	0x213
+#define SilvesterDesc	0x27c
+#define SilvesterName	0x220
 #define FaunaEnding	0x7f2
 #define FaunaTitle	0x7f1
 #define LloydEnding	0x7d6
@@ -38,3 +38,8 @@
 #define PostChapterMarx1	0xbfc
 #define PostChapterMarx2	0xc01
 #define PostChapterMarx3	0xc02
+#define LloydDeath	0xc23
+#define SilvesterDeath	0xc24
+#define FaunaDeath	0xc27
+#define PostChapter2	0xc03
+#define NihilSoldierDesc	0x2a9
