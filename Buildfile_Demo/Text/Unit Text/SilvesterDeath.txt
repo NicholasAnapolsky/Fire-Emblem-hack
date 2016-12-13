@@ -1,0 +1,12 @@
+# 0xc24
+[OpenMidLeft][LoadFace][0x14][0x01]
+My body won't...[.] move...[A][NL]
+I can't protect you anymore.[A][NL]
+Lloyd,[.] run...[.] run from Marx.[A]
+[ClearFace]
+[OpenMidRight][LoadFace][0x2][0x01]
+No![.] Father![.] Don't leave[NL]
+please![A][NL]
+I need to be with you![A][NL]
+Just another moment![A]
+[X]

@@ -1,6 +1,31 @@
 #define FreeSpace 0xb2a610
 #define FreeSpaceBLRange 0x1c1ec0
 
-#define Ruby Eirika
-#define Florina Ephraim
-#define Circe Seth
+//Variable Definitions
+//Characters
+#define Lloyd 0x1
+#define Fauna 0x3
+#define Silvester 0xf
+#define Dirk ONeill
+#define Marx 0x6C
+
+//Map Effects
+
+//EnemyUnits
+#define grunt1 0x80
+#define grunt2 0x81
+#define grunt3 0x82
+#define grunt4 0x83
+#define grunt5 0x84
+
+//Music
+#define SadMusic 0x002C
+#define RecruitMusic 0x0030
+#define SillyMusic 0x002A
+#define EnemyAproach 0x0026
+#define PlayerMap 0x0009
+#define PostChapter 0x0025
+#define ThemeOfMarx 0x0016
+#define VillageDestroyed 0x00AB
+#define MapDeath 0x00D5
+#define Rumble 0x02F0

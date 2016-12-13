@@ -1,5 +1,5 @@
 # 0xbfb
-[OpenFarLeft][LoadFace][0x4][0x01]
+[OpenFarLeft][LoadFace][0x14][0x01]
 [OpenLeft][LoadFace][0x2][0x01]
 Huh?[.] I heard something[NL]
 horrible in the distance.[A]

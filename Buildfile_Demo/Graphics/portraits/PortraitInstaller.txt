@@ -8,7 +8,7 @@ setMugEntry(0x2, Loydie_Mug, 2, 5, 3, 3)
 
 Silvester_Mug:
 #incext PortraitFormatter "silvester.png"
-setMugEntry(0x4, Silvester_Mug, 2, 5, 3, 3)
+setMugEntry(0x14, Silvester_Mug, 2, 5, 3, 3)
 
 Fauna_Mug:
 #incext PortraitFormatter "fauna.png"

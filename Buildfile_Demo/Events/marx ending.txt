@@ -1,0 +1,48 @@
+/* cut out for plot reasons
+LOAD1 0x01 MarxUnits
+LOAD1 0x1 Boss
+CAM1 Marx
+CUMO Marx
+STAL 50
+CURE
+MUSC ThemeOfMarx
+Text(Plain, PostChapterMarx1)
+CAM1 Dirk
+CUMO Dirk
+STAL 50
+CURE
+MOVE 0x00 Dirk [14,7]
+ENUN
+Text(Plain, PostChapterMarx2)
+MUSC Rumble
+EARTHQUAKE_START 0x0
+TILECHANGE 4
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 5
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 6
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 7
+SOUN VillageDestroyed
+STAL 20
+TILECHANGE 8
+SOUN VillageDestroyed
+STAL 20
+MOVE 0x00 Dirk [14,3]
+ENUN
+TILECHANGE 9
+TILECHANGE 10
+DISA Dirk
+SOUN MapDeath
+MUSC Rumble
+STAL 50
+EARTHQUAKE_END
+MUSC 0x0000
+SetBackground(Plain)
+TEXTSTART
+	TEXTSHOW PostChapterMarx3
+TEXTEND
+*/
