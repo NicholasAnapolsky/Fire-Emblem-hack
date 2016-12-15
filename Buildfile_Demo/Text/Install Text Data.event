@@ -84,18 +84,6 @@ PostChapter2_Data:
 #incext ParseFile "Prologue\PostChapter2.txt"
 setText(PostChapter2,PostChapter2_Data)
 
-PostChapterMarx1_Data:
-#incext ParseFile "Prologue\PostChapterMarx1.txt"
-setText(PostChapterMarx1,PostChapterMarx1_Data)
-
-PostChapterMarx2_Data:
-#incext ParseFile "Prologue\PostChapterMarx2.txt"
-setText(PostChapterMarx2,PostChapterMarx2_Data)
-
-PostChapterMarx3_Data:
-#incext ParseFile "Prologue\PostChapterMarx3.txt"
-setText(PostChapterMarx3,PostChapterMarx3_Data)
-
 PreChapter_Fauna_Data:
 #incext ParseFile "Prologue\PreChapter Fauna.txt"
 setText(PreChapter_Fauna,PreChapter_Fauna_Data)

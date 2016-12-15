@@ -35,9 +35,6 @@
 #define BossTextLloyd	0x935
 #define BossTextSilv	0x90a
 #define PostChapter1	0xbfa
-#define PostChapterMarx1	0xbfc
-#define PostChapterMarx2	0xc01
-#define PostChapterMarx3	0xc02
 #define LloydDeath	0xc23
 #define SilvesterDeath	0xc24
 #define FaunaDeath	0xc27

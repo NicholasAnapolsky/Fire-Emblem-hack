@@ -1,5 +1,6 @@
 EventPointerTable(0xA,Chapter1)
 
+
 Chapter1:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -39,10 +40,10 @@ WORD $00
 TrapData:
 END_MAIN
 
-//ALIGN 4
+ALIGN 4
 
 BeginningScene:
-Text(Plain, PostChapterMarx1)
+Text(Plain, FaunaRecruit)
 REMA //go from text to map
 EVBIT_T 0x7 //don't fade to black
 ENDA

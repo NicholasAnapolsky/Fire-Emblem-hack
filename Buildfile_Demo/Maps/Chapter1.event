@@ -15,6 +15,6 @@ TileMap(0,0,0,1,1,Change1)
 TileMapEnd
 
 Change1:
-SHORT 0xa28 
+SHORT 0x2ac 
 ALIGN 4
 
