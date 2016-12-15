@@ -27,5 +27,6 @@
 #define PostChapter 0x0025
 #define ThemeOfMarx 0x0016
 #define VillageDestroyed 0x00AB
+#define Stab 0x00D5
 #define MapDeath 0x00D5
 #define Rumble 0x02F0

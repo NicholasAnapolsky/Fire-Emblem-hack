@@ -4,6 +4,7 @@
 W-[.] why did you just knock[NL]
 down my door?[A][NL]
 [OpenFarRight][MoveRight]
+[LoadOverworldFaces]
 [OpenMidLeft]
 [CloseEyes]GUH![A][2NL]
 [HalfCloseEyes]W-[.] why?[A]
