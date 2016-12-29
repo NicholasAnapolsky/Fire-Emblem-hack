@@ -1,0 +1,5 @@
+PrlgArmory:
+SHLI IronSword IronLance IronAxe IronBow KillingEdge KillerLance KillerAxe KillerBow
+
+PrlgVendor:
+SHLI Vulnerary

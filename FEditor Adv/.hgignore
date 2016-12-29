@@ -1,0 +1,15 @@
+syntax: glob
+
+folDIR.html
+
+*.mp3
+
+*.symbols.log
+*.dmp
+
+*.ips
+*.jfp
+*.ups
+
+*.class
+*.jar

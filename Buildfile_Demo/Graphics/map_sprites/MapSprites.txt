@@ -7,3 +7,7 @@ Map_Thief_F_Stand:
 #incext Png2Dmp "Thief F_Standing_16x32.png" --lz77
 Map_Thief_F_Move:
 #incext Png2Dmp "Thief F_Moving_32x32.png" --lz77
+Map_Nomad_Stand:
+#incext Png2Dmp "Nomad_Standing_16x32.png" --lz77
+Map_Nomad_Move:
+#incext Png2Dmp "Nomad_Moving_32x32.png" --lz77

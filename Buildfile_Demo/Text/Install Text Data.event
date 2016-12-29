@@ -4,6 +4,54 @@
 #include "Text Definitions.event"
 
 
+BossQuote_Data:
+#incext ParseFile "Chapter1\BossQuote.txt"
+setText(BossQuote,BossQuote_Data)
+
+EndScene_Data:
+#incext ParseFile "Chapter1\EndScene.txt"
+setText(EndScene,EndScene_Data)
+
+OpenLloydGroup_Data:
+#incext ParseFile "Chapter1\OpenLloydGroup.txt"
+setText(OpenLloydGroup,OpenLloydGroup_Data)
+
+OpenSceneRoger1_Data:
+#incext ParseFile "Chapter1\OpenSceneRoger1.txt"
+setText(OpenSceneRoger1,OpenSceneRoger1_Data)
+
+OpenSceneRoger2_Data:
+#incext ParseFile "Chapter1\OpenSceneRoger2.txt"
+setText(OpenSceneRoger2,OpenSceneRoger2_Data)
+
+RogerRecruit_Data:
+#incext ParseFile "Chapter1\RogerRecruit.txt"
+setText(RogerRecruit,RogerRecruit_Data)
+
+HunterDesc_Data:
+#incext ParseFile "Class Text\HunterDesc.txt"
+setText(HunterDesc,HunterDesc_Data)
+
+HunterName_Data:
+#incext ParseFile "Class Text\HunterName.txt"
+setText(HunterName,HunterName_Data)
+
+NomadDesc_Data:
+#incext ParseFile "Class Text\NomadDesc.txt"
+setText(NomadDesc,NomadDesc_Data)
+
+NomadName_Data:
+#incext ParseFile "Class Text\NomadName.txt"
+setText(NomadName,NomadName_Data)
+
+SisterDesc_Data:
+#incext ParseFile "Class Text\SisterDesc.txt"
+setText(SisterDesc,SisterDesc_Data)
+
+SisterName_Data:
+#incext ParseFile "Class Text\SisterName.txt"
+setText(SisterName,SisterName_Data)
+
 FaunaEnding_Data:
 #incext ParseFile "Epilogue Text\FaunaEnding.txt"
 setText(FaunaEnding,FaunaEnding_Data)
@@ -31,6 +79,10 @@ setText(SilvesterEnding,SilvesterEnding_Data)
 SilvesterTitle_Data:
 #incext ParseFile "Epilogue Text\SilvesterTitle.txt"
 setText(SilvesterTitle,SilvesterTitle_Data)
+
+CutthroatDesc_Data:
+#incext ParseFile "Grunt Text\CutthroatDesc.txt"
+setText(CutthroatDesc,CutthroatDesc_Data)
 
 NihilSoldierDesc_Data:
 #incext ParseFile "Grunt Text\NihilSoldierDesc.txt"
@@ -100,14 +152,6 @@ Prologue_WM_Text_Data:
 #incext ParseFile "Prologue\Prologue_WM_Text.txt"
 setText(Prologue_WM_Text,Prologue_WM_Text_Data)
 
-DirkDesc_Data:
-#incext ParseFile "Unit Text\DirkDesc.txt"
-setText(DirkDesc,DirkDesc_Data)
-
-DirkName_Data:
-#incext ParseFile "Unit Text\DirkName.txt"
-setText(DirkName,DirkName_Data)
-
 FaunaDeath_Data:
 #incext ParseFile "Unit Text\FaunaDeath.txt"
 setText(FaunaDeath,FaunaDeath_Data)
@@ -132,6 +176,18 @@ LloydName_Data:
 #incext ParseFile "Unit Text\LloydName.txt"
 setText(LloydName,LloydName_Data)
 
+RogerDeath_Data:
+#incext ParseFile "Unit Text\RogerDeath.txt"
+setText(RogerDeath,RogerDeath_Data)
+
+RogerDesc_Data:
+#incext ParseFile "Unit Text\RogerDesc.txt"
+setText(RogerDesc,RogerDesc_Data)
+
+RogerName_Data:
+#incext ParseFile "Unit Text\RogerName.txt"
+setText(RogerName,RogerName_Data)
+
 SilvesterDeath_Data:
 #incext ParseFile "Unit Text\SilvesterDeath.txt"
 setText(SilvesterDeath,SilvesterDeath_Data)
@@ -143,4 +199,20 @@ setText(SilvesterDesc,SilvesterDesc_Data)
 SilvesterName_Data:
 #incext ParseFile "Unit Text\SilvesterName.txt"
 setText(SilvesterName,SilvesterName_Data)
+
+DirkDesc_Data:
+#incext ParseFile "Unit Text\Boss Text\DirkDesc.txt"
+setText(DirkDesc,DirkDesc_Data)
+
+DirkName_Data:
+#incext ParseFile "Unit Text\Boss Text\DirkName.txt"
+setText(DirkName,DirkName_Data)
+
+RamusDesc_Data:
+#incext ParseFile "Unit Text\Boss Text\RamusDesc.txt"
+setText(RamusDesc,RamusDesc_Data)
+
+RamusName_Data:
+#incext ParseFile "Unit Text\Boss Text\RamusName.txt"
+setText(RamusName,RamusName_Data)
 
