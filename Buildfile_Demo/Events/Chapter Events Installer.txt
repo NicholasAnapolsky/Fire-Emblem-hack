@@ -1,3 +1,12 @@
-
-  ALIGN 4
-  #include "Prologue.txt"
+{
+	ALIGN 4
+	#include "Prologue.txt"
+}
+{
+	ALIGN 4
+	#include "Ch1.txt"
+}
+{
+	ALIGN 4
+	#include "Ch2.txt"
+}

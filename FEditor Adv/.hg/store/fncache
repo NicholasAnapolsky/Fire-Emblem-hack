@@ -1,0 +1,264 @@
+data/doc/Natural Script Formatter/Siegfried and Howard Battle.txt.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon5.png.i
+data/asm/FE6/Melee and Magic Fix/README.txt.i
+data/src/FEditorAdvance/App.java.i
+data/Execute ROM Mapper.bat.i
+data/asm/FE7/Disable Minimap/Reg Control.bat.i
+data/doc/GBA FE Auto Patches/Anti Huffman Hack.txt.i
+data/asm/FE8/Crit Bonus Mod/Preprocess.bat.i
+data/doc/Don't Forget to Save.txt.i
+data/src/FEditorAdvance/PortraitEditor.java.i
+data/src/Controls/ArrayPanel.java.i
+data/src/Model/SpellProgramCounterArray.java.i
+data/doc/Custom Spell Animations/Example Animation/Test BG.PNG.i
+data/asm/FE7/Command Menu/README.txt.i
+data/asm/FE8/Stat Hack/Resume Stat Hack.txt.i
+data/src/Controls/PaletteFrame.java.i
+data/src/Model/BinaryModel.java.i
+data/asm/FE7/Disable Minimap/README (C).txt.i
+data/asm/FE7/Spell Anim System/[Stable] CSA System.txt.i
+data/src/FEditorAdvance/resources/App.properties.i
+data/doc/Text Control Codes.txt.i
+data/src/Model/FE6PortraitArray.java.i
+data/src/FEditorAdvance/resources/busyicons/idle-icon.png.i
+data/doc/Custom Spell Animations/Example Animation/Test Script.txt.i
+data/src/Compression/LempelZiv.java.i
+data/src/FEditorAdvance/ClassAnimationCreator.java.i
+data/doc/Battle Animations/Debug Animation Frames/Dodge.png.i
+data/src/Model/FE8.java.i
+data/asm/FE7/Disable Minimap/Disassemble.bat.i
+data/doc/Writing Error Examples.txt.i
+data/doc/Battle Animations/Example Frame 1.PNG.i
+data/doc/Natural Script Formatter/Assault Start.txt.i
+data/asm/FE7/Spell Anim System/CSA System.symbols.log.i
+data/doc/Portrait Editor Examples/Legacy/Template (FE 7 & 8 normal).png.i
+data/src/FEditorAdvance/resources/about.png.i
+data/doc/Battle Animations/Debug Animation Frames/Standing 2.png.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon14.png.i
+data/doc/Free Space/Known Free Space.txt.i
+data/asm/FE8/Melee and Magic Fix/README.txt.i
+data/doc/GBA FE Auto Patches/Staff EXP Hack.txt.i
+data/doc/Manual Patches.txt.i
+data/doc/Battle Animations/Debug Animation Frames/Debug Script.txt.i
+data/asm/FE7/Disable Minimap/Preprocess.bat.i
+data/run.bat.i
+data/asm/FE7/Item Icon Bug Fix/C Version/Preprocess.bat.i
+data/asm/FE8/Stat Hack/Helper Functions for Stat Hacks.txt.i
+data/src/Model/PortableClassAnimation.java.i
+data/asm/FE7/Anim Commands/Animation Command 48 Hack.txt.i
+data/asm/FE7/Spell Anim System/Clean.bat.i
+data/doc/Text Editor.txt.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon7.png.i
+data/doc/Natural Script Formatter.txt.i
+data/asm/FE8/Spell Anim System/CSA Corrections.txt.i
+data/src/FEditorAdvance/ModelessFrame.java.i
+data/src/Model/AnimationCommand.java.i
+data/asm/FE8/Crit Bonus Mod/Clean.bat.i
+data/doc/Battle Animations/Debug Animation Frames/Standing 4.png.i
+data/doc/Game Documentation.txt.i
+data/src/FEditorAdvance/resources/AboutBox.properties.i
+data/doc/Portrait Editor Notes.txt.i
+data/src/Model/ROM.java.i
+data/asm/FE6/Anim Commands/Animation Command 48 Hack Patch.txt.i
+data/asm/FE7/Item Icon Bug Fix/README (IPS).txt.i
+data/doc/Custom Spell Animations/0x85 Command Usage.txt.i
+data/Execute PCA Dumper.bat.i
+data/doc/Battle Animations/0x85 Command Usage.txt.i
+data/out.log.i
+data/doc/Natural Script Formatter/After Battle 2.txt.i
+data/asm/FE8/Text/Anti Huffman.txt.i
+data/Readme.txt.i
+data/asm/FE7/Item Icon Bug Fix/C Version/program1.cpp.i
+data/asm/FE6/Text/Anti Huffman.txt.i
+data/asm/FE8/Crit Bonus Mod/program2.cpp.i
+data/src/FEditorAdvance/resources/View.properties.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon11.png.i
+data/doc/Portrait Editor Examples/Demo.PNG.i
+data/asm/FE7/Item Icon Bug Fix/README (JFP).txt.i
+data/doc/Memory and Free Space Manager.txt.i
+data/asm/FE7/Command Menu/Command Menu Names Hacking.txt.i
+data/asm/FE8/Crit Bonus Mod/Disassemble.bat.i
+data/doc/Battle Animations/Debug Animation Frames/Attacking 2.png.i
+data/doc/What the Heck is an Auto Patch.txt.i
+data/src/Graphics/GBAImage.java.i
+data/doc/GBA FE Auto Patches/Resume Hack.txt.i
+data/src/Model/OAM.java.i
+data/Execute PaletteFrame Test.bat.i
+data/doc/Portrait Editor Examples/Legacy/Template (FE 6 normal).png.i
+data/src/FEditorAdvance/resources/splash.png.i
+data/asm/FE7/Event Supports/[AP] Event Supports.txt.i
+data/internal/Test Portrait.txt.i
+data/asm/FE7/Stat Hack/C Version Extension/program1.cpp.formatted.dmp.i
+data/asm/FE7/Event Supports/Assemble.bat.i
+data/src/Model/Listener.java.i
+data/doc/GBA FE Auto Patches/Custom Spell Animation Processor.txt.i
+data/asm/FE6/Melee and Magic Fix/Melee and Magic Fix.txt.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon4.png.i
+data/src/Model/PortraitArray.java.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon2.png.i
+data/src/Graphics/GraphicEditor.java.i
+data/src/Model/FE6.java.i
+data/src/META-INF/MANIFEST.MF.i
+data/asm/FE8/Melee and Magic Fix/Melee and Magic Fix.txt.i
+data/src/Model/CharacterPaletteArray.java.i
+data/src/Model/TextArray.java.i
+data/src/Model/FE7PortraitArray.java.i
+data/asm/FE6/Stat Hack/Helper Functions for Stat Hacks.txt.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon12.png.i
+data/src/Graphics/GBASpritesheet.java.i
+data/doc/Battle Animations/Example Frame 2.PNG.i
+data/internal/TODO.txt.i
+data/asm/FE8/Crit Bonus Mod/program1.cpp.formatted.dmp.i
+data/asm/FE8/Stat Hack/Restart Chapter Stat Hack.txt.i
+data/internal/FE6 Garbage Chibis.txt.i
+data/asm/FE7/Stat Hack/C Version Extension/program2.cpp.i
+data/Execute CG Maker.bat.i
+data/src/Model/PointerArray.java.i
+data/doc/Battle Animations/Example Animation Insertion Script.txt.i
+data/asm/FE6/Anim Commands/Animation Command 01 Hack.txt.i
+data/src/Model/AnimationBuilder.java.i
+data/doc/Natural Script Formatter/After Battle 1.txt.i
+data/asm/FE7/Melee and Magic Fix/Purge Glitch.txt.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon6.png.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon9.png.i
+data/Release Info.txt.i
+data/src/Graphics/PaletteDumper.java.i
+data/src/Model/FE8PortraitArray.java.i
+data/doc/Pronunciation.txt.i
+data/src/Controls/ProcessComponent.java.i
+data/Execute Graphic Editor.bat.i
+data/asm/FE7/Item Icon Bug Fix/C Version/Reg Control.bat.i
+data/doc/Battle Animations/Debug Animation Frames/Ranged Critical.png.i
+data/asm/FE8/Crit Bonus Mod/Reg Control.bat.i
+data/asm/FE7/Item Icon Bug Fix/C Version/Disassemble.bat.i
+data/asm/FE7/Stave EXP/Staff EXP Hack.txt.i
+data/src/FEditorAdvance/ClassAnimationManager.java.i
+data/doc/Portrait Editor Examples/Legacy/Template (FE 7 & 8 shop owner).png.i
+data/asm/FE7/Spell Anim System/CSA Corrections.txt.i
+data/asm/FE7/Stat Hack/C Version Extension/program1.cpp.i
+data/asm/FE7/Spell Anim System/Assemble.bat.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon1.png.i
+data/asm/FE8/Crit Bonus Mod/program1.cpp.i
+data/asm/FE7/Disable Minimap/program1.cpp.i
+data/asm/FE7/Disable Minimap/Clean.bat.i
+data/doc/Class Animation Creator.txt.i
+data/asm/FE7/Stat Hack/Helper Functions for Stat Hacks.txt.i
+data/doc/Custom Spell Animations/Example Animation/testImage.PNG.i
+data/src/FEditorAdvance/TextEditor.java.i
+data/build.bat.i
+data/asm/FE6/Spell Anim System/CSA System.txt.i
+data/asm/FE7/Stat Hack/C Version Extension/Disassemble.bat.i
+data/build.py.i
+data/asm/FE8/Anim Commands/Animation Command 01 Hack.txt.i
+data/src/FEditorAdvance/Editor.java.i
+data/doc/Invalid ROM!.txt.i
+data/doc/Portrait Editor Examples/Template (normal).png.i
+data/doc/Battle Animations/Debug Animation Frames/Standing 3.png.i
+data/asm/FE7/Command Menu/Implementation.txt.i
+data/asm/FE7/Stat Hack/C Version Extension/Clean.bat.i
+data/asm/FE8/Skills/Skill Hack Gamma.jfp.i
+data/asm/FE7/Melee and Magic Fix/README.txt.i
+data/asm/FE8/Stat Hack/Link Arena Stat Hack.txt.i
+data/doc/Writing Error Examples/Portrait Error Example.png.i
+data/asm/FE7/Spell Anim System/CSA System.txt.i
+data/internal/Test Portrait.PNG.i
+data/src/FEditorAdvance/BinaryEditor.java.i
+data/asm/FE7/Spell Anim System/[Stable] CSA Corrections.txt.i
+data/doc/Portrait Editor Examples/Template (shop owner).png.i
+data/asm/FE7/Item Icon Bug Fix/README (C).txt.i
+data/doc/Battle Animations/Debug Animation Frames/Miss 2.png.i
+data/src/Graphics/CGImage.java.i
+data/doc/GBA FE Auto Patches/HP Bar Graphic Hack.txt.i
+data/asm/FE7/Item Icon Bug Fix/C Version/Clean.bat.i
+data/MANIFEST.MF.i
+data/asm/FE8/Skills/README.txt.i
+data/doc/Battle Animations/Debug Animation Frames/Ranged Hit.png.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon3.png.i
+data/src/FEditorAdvance/CommonDialogs.java.i
+data/Credits.txt.i
+data/build_lint.bat.i
+data/asm/FE7/HP Bar Fix/HP Bar Drawing.txt.i
+data/.hgignore.i
+data/src/Graphics/Palette.java.i
+data/doc/Updating.txt.i
+data/doc/FE 6 Auto Patch Notice.txt.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon8.png.i
+data/src/Model/TileMap.java.i
+data/src/Controls/HexNumberFormatter.java.i
+data/src/META-INF/services/org.jdesktop.application.Application.i
+data/asm/FE7/Stat Hack/C Version Extension/Reg Control.bat.i
+data/asm/FE7/Spell Anim System/CSA System.patch.txt.i
+data/src/Model/Game.java.i
+data/doc/GBA FE Auto Patches/Link Arena Hack.txt.i
+data/asm/FE8/Spell Anim System/CSA System.dmp.i
+data/doc/Free Space/Free Space.txt.i
+data/doc/Portrait Editor Examples/Stuff unused by FE 6.png.i
+data/asm/FE7/Event Supports/Clean.bat.i
+data/src/Model/Metadata.java.i
+data/asm/FE6/Anim Commands/Animation Command 01 Hack Patch.txt.i
+data/src/Model/StringStream.java.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon0.png.i
+data/asm/FE6/Stat Hack/Restart Chapter Stat Hack.txt.i
+data/asm/FE8/Crit Bonus Mod/README (C).txt.i
+data/src/Model/SpellAnimationArray.java.i
+data/src/Controls/HexNumberEditor.java.i
+data/License.txt.i
+data/asm/FE7/Item Icon Bug Fix/C Version/program2.cpp.i
+data/Execute Natural Script Formatter.bat.i
+data/asm/FE7/Disable Minimap/program2.cpp.i
+data/asm/FE7/Spell Anim System/CSA System.dmp.i
+data/asm/FE6/Stat Hack/Link Arena Stat Hack.txt.i
+data/doc/FE 6 Translation.txt.i
+data/doc/Portrait Editor Examples/Legacy/Template (FE 6 shop owner).png.i
+data/src/Controls/IntValueListener.java.i
+data/src/Model/ROMMapper.java.i
+data/doc/Natural Script Formatter/Chapter 10 Raw.txt.i
+data/src/Graphics/ColorReducer.java.i
+data/src/Model/ClassAnimationArray.java.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon13.png.i
+data/doc/Natural Script Formatter/Battlefield.txt.i
+data/asm/FE6/Stat Hack/Resume Stat Hack.txt.i
+data/asm/FE7/Item Icon Bug Fix/Item Icon Bug Fix.txt.i
+data/asm/FE7/Event Supports/[AP] Event Supports.symbols.default.log.i
+data/doc/Battle Animations/Debug Animation Frames/Standing 1.png.i
+data/doc/GBA FE Auto Patches/Animation Command 01 Hack.txt.i
+data/asm/FE7/Stat Hack/C Version Extension/Preprocess.bat.i
+data/src/FEditorAdvance/AboutBox.java.i
+data/asm/FE7/Stat Hack/C Version Extension/README (C).txt.i
+data/src/Model/NaturalScriptFormatter.java.i
+data/COPYING.i
+data/doc/Natural Script Formatter/Trapped.txt.i
+data/src/Controls/LabelledHexSpinner.java.i
+data/doc/Game Scripts.txt.i
+data/src/FEditorAdvance/SpellAnimationInserter.java.i
+data/doc/Free Space.txt.i
+data/src/FEditorAdvance/ScrollableComponent.java.i
+data/doc/Battle Animations/Debug Animation Frames/Critical 2.png.i
+data/asm/FE6/Spell Anim System/CSA Corrections.txt.i
+data/src/FEditorAdvance/View.java.i
+data/doc/Spell Animation Inserter.txt.i
+data/doc/Portrait Editor Examples/Template (card).PNG.i
+data/src/Model/Util.java.i
+data/doc/GBA FE Auto Patches/Animation Command 48 Hack.txt.i
+data/asm/FE6/Anim Commands/Animation Command 48 Hack.txt.i
+data/asm/FE7/Event Supports/[AP] Event Supports.symbols.log.i
+data/doc/Battle Animations/Debug Animation Frames/Attacking 1.png.i
+data/src/Model/FE7.java.i
+data/src/FEditorAdvance/resources/busyicons/busy-icon10.png.i
+data/doc/Battle Animations/Debug Animation Frames/Miss 1.png.i
+data/doc/Battle Animations/Debug Animation Frames/Critical 1.png.i
+data/internal/Footer Format.txt.i
+data/src/Compression/Huffman.java.i
+data/src/FEditorAdvance/FloatingNotepad.java.i
+data/src/Controls/Process.java.i
+data/Execute Palette Dumper.bat.i
+data/dist/README.TXT.i
+data/asm/FE8/Spell Anim System/CSA System Patch.txt.i
+data/asm/FE7/Anim Commands/Animation Command 01 Hack.txt.i
+data/asm/FE7/Text/Anti Huffman.txt.i
+data/asm/FE7/Event Supports/Disassemble.bat.i
+data/doc/Graphics in General.txt.i
+data/asm/FE8/Spell Anim System/CSA System.txt.i
+data/asm/FE7/Melee and Magic Fix/Melee and Magic Fix.txt.i
+data/asm/FE8/Anim Commands/Animation Command 48 Hack.txt.i
+data/asm/FE7/Spell Anim System/Disassemble.bat.i

@@ -1,4 +1,4 @@
-EventPointerTable(0x07,ThisChapter) //0x7 is Prologue Events
+EventPointerTable(0x07,ThisChapter)
 
 ThisChapter:
 POIN TurnBasedEvents
@@ -17,15 +17,12 @@ UNIT Fauna Thief Eirika Level(1, NPC, False) [3,3] 0x00 0x00 0x0 0x00 [IronSword
 UNIT
 
 Boss:
-//The boss Dirk using ONeill as a unit, starts at position [13,1]
-UNIT Dirk Fighter 0x00 Level(10, Enemy, True) [14,3] 0x00 0x00 0x0 0x00 [SteelAxe] GuardTileAI 
+UNIT Dirk Fighter 0x00 Level(5, Enemy, True) [14,3] 0x00 0x00 0x0 0x00 [SteelAxe] GuardTileAI 
 UNIT
 
 Units2:
-//Lloyd using Erika as a unit, starts at position [2,3]
 UNIT Lloyd EirikaLord Eirika Level(1, Ally, False) [3,4] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary] NoAI 
 
-//Silvester using Seth as a unit, starts at position [1,1]
 UNIT Silvester Paladin Eirika Level(1, Ally, False) [4,4] 0x00 0x00 0x0 0x00 [IronSword, SteelLance] NoAI 
 UNIT
 
@@ -47,15 +44,13 @@ UNIT Marx Necromancer 0x0 Level(20, Enemy, False) [14,8] 0x00 0x00 0x0 0x00 [Iro
 UNIT
 
 TurnBasedEvents:
-OpeningTurnEvent(CasualModePrompt)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x7,EirikaEphraimTalk,Lloyd,Fauna)
+CharacterEventBothWays(0x7,LloydFaunaTalk,Lloyd,Fauna)
 END_MAIN
 
 LocationBasedEvents:
-//CHECK_ACTIVEID Lloyd
 House(0x10, HouseNorthWest, 4, 1)
 House(0x11, HouseNorthCentral, 5, 3)
 House(0x12, HouseSouthCentral, 3, 6)
@@ -92,6 +87,8 @@ STAL 50
 CURE
 Text(Village, PreChapter_Fauna)
 LOAD1 0x1 Units2
+_SETVAL 3 1000
+GIVEITEMTOMAIN 0x1
 MOVE 0x01 Lloyd [2,2]
 MOVE 0x01 Silvester [1,1]
 STAL 100
@@ -112,7 +109,16 @@ ENUN
 MOVE 0x00 grunt5 [11,8]
 ENUN
 
-Text(HouseBG, House1Destroy)
+SetBackground(HouseBG)
+TEXTSTART
+	TEXTSHOW House1Destroy
+TEXTEND
+SOUN Stab
+TEXTCONT
+TEXTEND
+ClearBackground
+REMA
+
 TILECHANGE 0
 SOUN VillageDestroyed
 STAL 50
@@ -177,7 +183,7 @@ MNC2 0x01
 ENDA
 
 // Events
-EirikaEphraimTalk:
+LloydFaunaTalk:
 TEXTSTART
 MUSC SadMusic
 TEXTSHOW FaunaRecruit
@@ -213,21 +219,6 @@ HouseNorthEast:
 MUSC SadMusic
 Text(HouseBG, House4)
 NoFade
-ENDA
-
-CasualModePrompt:
-/*
-TUTORIALTEXTBOXSTART
-SVAL 0xB 0xFFFFFFFF
-TEXTSHOW CasualAsk
-TEXTEND
-REMA
-SVAL 0x7 0x1
-BNE 0x1 0xC 0x7
-ENUT 0xB0
-LABEL 0x1
-NoFade
-*/
 ENDA
 
 // Manual Movement

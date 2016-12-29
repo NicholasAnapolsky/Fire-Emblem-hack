@@ -17,3 +17,7 @@ setMugEntry(0x5, Fauna_Mug, 2, 6, 2, 5)
 Marx_Mug:
 #incext PortraitFormatter "marx.png"
 setMugEntry(0x6C, Marx_Mug, 4, 4, 3, 3)
+
+Ramus_Mug:
+#incext PortraitFormatter "ramus.png"
+setMugEntry(0x31, Ramus_Mug, 2, 5, 2, 3)

@@ -1,0 +1,31 @@
+#ifdef _FE8_
+    #include "EAstdlib.event"
+    #include "../../Custom Definitions.event"
+
+    ORG FreeSpace
+
+    //CSV tables
+    #include "../../Tables/Table Installer.txt"
+
+    //Engine Hacks
+    #include "../../Engine Hacks/_MasterHackInstaller.txt"
+
+    //Graphics
+    #include "../../Graphics/Graphics Installer.txt"
+
+    //Music
+    #include "../../Music/Music Installer.txt"
+
+    //Maps
+    #include "../../Maps/Master Map Installer.event"
+
+    //Text
+    #include "../../Text/Install Text Data.event"
+
+    #include "../../Events/World Map Events Installer.txt"
+
+    MESSAGE Used free space ends at currentOffset
+
+#else
+    ERROR You are not assembling FE8 events!
+#endif

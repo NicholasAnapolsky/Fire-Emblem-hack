@@ -7,7 +7,14 @@
 #define Fauna 0x3
 #define Silvester 0xf
 #define Dirk ONeill
+#define Roger 0x4
+#define Ramus 0x46
 #define Marx 0x6C
+
+//Classes added
+#define Sister 0x3e
+#define Hunter 0x37
+#define Nomad 0x38
 
 //Map Effects
 
@@ -17,6 +24,7 @@
 #define grunt3 0x82
 #define grunt4 0x83
 #define grunt5 0x84
+#define Cutthroat 0x8e
 
 //Music
 #define SadMusic 0x002C
@@ -25,7 +33,9 @@
 #define EnemyAproach 0x0026
 #define PlayerMap 0x0009
 #define PostChapter 0x0025
+#define HappyEnd 0x0031
 #define ThemeOfMarx 0x0016
 #define VillageDestroyed 0x00AB
+#define Stab 0x00D5
 #define MapDeath 0x00D5
 #define Rumble 0x02F0

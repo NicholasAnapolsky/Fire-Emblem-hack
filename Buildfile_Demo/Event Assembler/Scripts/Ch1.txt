@@ -1,0 +1,144 @@
+#include "ROM Buildfile.txt"
+
+EventPointerTable(0x0A,Chapter1)
+
+Chapter1:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Roger Cavalier Lloyd Level(1, NPC, False) [0,9] 0x00 0x00 0x0 0x00 [IronSword, IronLance] GuardTileAI
+UNIT
+
+Units1:
+UNIT Silvester Paladin Lloyd Level(1, Ally, False) [0,9] 0x00 0x00 0x0 0x00 [IronSword, SteelLance] NoAI
+UNIT Fauna Thief Lloyd Level(1, Ally, False) [2,7] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT Lloyd EirikaLord Lloyd Level(1, Ally, False) [2,8] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary] NoAI
+UNIT
+
+Boss:
+UNIT Ramus Mercenary 0x00 Level(5, Enemy, True) [5,7] 0x00 0x00 0x0 0x00 [SteelSword] GuardTileAI 
+UNIT
+
+Grunts:
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [3,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [7,4] 0x00 0x00 0x0 0x00 [IronAxe] [0x00, 0x03, 0x09, 0x00]
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [1,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [5,9] 0x00 0x00 0x0 0x00 [IronAxe] [0x00, 0x03, 0x09, 0x00]
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [12,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [14,7] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [12,0] 0x00 0x00 0x0 0x00 [IronAxe] [0x00, 0x03, 0x09, 0x00]
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [6,0] 0x00 0x00 0x0 0x00 [IronAxe] [0x00, 0x03, 0x09, 0x00]
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [2,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT Cutthroat Brigand Ramus Level(1, Enemy, True) [8,8] 0x00 0x00 0x0 0x00 [IronAxe] [0x00, 0x03, 0x09, 0x00]
+UNIT
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x8, LloydRogerTalk, Lloyd, Roger)
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Units
+MOVE 0x0 Roger [4,7]
+ENUN
+MUSC SillyMusic
+Text(Plain_2, OpenSceneRoger1)
+LOAD1 0x1 Boss
+MOVE 0x0 Roger [10,4]
+ENUN
+FADI 5
+LOAD1 0x1 Grunts
+FADU 5
+MUSC EnemyAproach
+MOVE 0x0 Ramus [11,4]
+ENUN
+Text(Plain_2, OpenSceneRoger2)
+MOVE 0x0 Ramus [14,0]
+ENUN
+LOAD2 0x1 Units1
+SetBackground(Plain_2)
+TEXTSTART
+	TEXTSHOW OpenLloydGroup
+TEXTEND
+CHECK_ALIVE Fauna
+SETVAL 0x3 True
+IFEQUAL 0x0 0xC 0x3
+	TEXTCONT
+TEXTEND	
+ELSE 0x1
+ENIF 0x0
+ENIF 0x1
+ClearBackground
+REMA
+
+REMA //go from text to map
+EVBIT_T 0x7 //don't fade to black
+ENDA
+
+EndingScene:
+MUSC HappyEnd
+SetBackground(Plain_2)
+TEXTSTART
+	TEXTSHOW EndScene
+TEXTEND
+
+//MNTS 0x0
+//Write_Byte(3,$202bcf0+$1b)
+MNC2 0x02
+ENDA
+
+//Events
+LloydRogerTalk:
+TEXTSTART
+MUSC RecruitMusic
+TEXTSHOW RogerRecruit
+TEXTEND
+CUSA Roger
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+
+// Shop Data
+PrlgArmory:
+SHLI IronSword IronLance IronAxe IronBow KillingEdge KillerLance KillerAxe KillerBow
+
+PrlgVendor:
+SHLI Vulnerary
+
+MESSAGE Events end at offset currentOffset
